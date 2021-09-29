@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 75vh;
+    display: block;
+    background: linear-gradient(#00ff7f, green);
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+.header h1{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+ul li{
+    position: absolute;
+    border:  1px solid #fff;
+    width: 30px;
+    height: 30px;
+    list-style: none;
+}
+.square li{
+    top: 50vh;
+    left: 50vw;
+    animation: square 10s linear infinite;
+}
+.square li:nth-child(2){
+    top: 60vh;
+    left: 10vw;
+    animation-delay: 2s;
+    background-color: white;
+}
+.square li:nth-child(3){
+    top: 55vh;
+    left: 30vw;
+    animation-delay: 4s;
+}
+.square li:nth-child(4){
+    top: 10vh;
+    left: 60vw;
+    animation-delay: 6s;
+}
+.square li:nth-child(5){
+    top: 10vh;
+    left: 80vw;
+    animation-delay: 8s;
+}
+.circle li{
+    bottom: 0;
+    left: 15vw;
+    animation: circle 10s linear infinite;
+}
+.circle li:nth-child(2){
+    left: 55vw;
+    animation-delay: 2s;
+}
+.circle li:nth-child(3){
+    left: 85vw;
+    animation-delay: 4s;
+}
+.projects{
+    background: #0A0A18;
+    height: 100vh;
+}
+.spacer{
+    height: 100px;
+}
+@media screen and (min-width: 200px){
+    .cartProject{
+        width: 80vw;
+    height: 400px;
+    border: 1px solid;
+    border-radius: 13px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    transition: transform 0.5s;
+    background-position: center;
+    }
+}
+.cartProject{
+    width: 80vw;
+    height: 400px;
+    border: 1px solid;
+    border-radius: 13px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    transition: transform 0.5s;
+    background-position: center;
+}
+.cartProject:hover{
+    transform: translateY(-5px);
+}
+.cartProject h2{
+    padding-top: 100px;
+    padding-left: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.cartProject p{
+    text-shadow: 0 0 15px #000;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    color: #fff;
+}
+#minecraft{
+    background-image: url(../img/computer-game-2873192_1280.png);
+}
+.button{
+    position: relative;
+    display: inline-block;
+    padding: 30px 61px;
+    border-radius: 4px;
+    color: #03e9f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    margin: 25px;
+    filter: hue-rotate(0deg);
+    border: 2px solid #d2bdff;
+    transition: all 0.1s linear;
+}
+.button:hover{
+    background-color: #d2bdff;
+    color: #fff;
+}
+.footer{
+    background-color: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.footer-content p{
+    max-width: 450px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    opacity: .4;
+    font-weight: 200;
+}
+@keyframes square{
+    0%{
+        transform: scale(0);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(5);
+        opacity: 0;
+    }
+}
+@keyframes circle
+{
+    0%
+    {
+        transform: scale(0) rotate(0deg);
+        opacity: 1;
+        bottom: 35vh;
+        border-radius: 50%;
+    }
+    100%
+    {
+        transform: scale(5);
+        opacity: 0;
+        bottom: 60vh;
+        border-radius: 50%;
+    }
+}
