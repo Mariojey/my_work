@@ -120,6 +120,9 @@ ul li{
 #minecraft{
     background-image: url(../img/computer-game-2873192_1280.png);
 }
+#draw{
+    background-image: url(../img/600528.png);
+}
 .button{
     position: relative;
     display: inline-block;
