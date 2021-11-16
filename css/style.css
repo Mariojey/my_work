@@ -120,8 +120,15 @@ ul li{
 #minecraft{
     background-image: url(../img/computer-game-2873192_1280.png);
 }
-#draw{
-    background-image: url(../img/600528.png);
+#spooky{
+    background-image: url(../img/spooky.png);
+}
+#spooky h2{
+    padding-top: 100px;
+    padding-left: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:  white;
 }
 .button{
     position: relative;

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    padding: 0;
+    margin:  0;
+    font-family: Poppins, sans-serif;
+}
+.container{
+    background-image: url('../img/spooky.png');
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.post{
+    top: 30vh;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+.post iframe{
+    margin-top: 20vh;
+}
