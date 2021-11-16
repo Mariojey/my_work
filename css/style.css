@@ -121,7 +121,7 @@ ul li{
     background-image: url(../img/computer-game-2873192_1280.png);
 }
 #spooky{
-    background-image: url(../img/spooky.png);
+    background-image: url('../img/spooky.png');
 }
 #spooky h2{
     padding-top: 100px;
